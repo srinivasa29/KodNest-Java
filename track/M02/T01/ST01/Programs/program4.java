@@ -1,7 +1,7 @@
-public class program4 {
-    public static void main(String[] args) {
 
-        // Write your code here
+public class program4 {
+
+    public static void main(String[] args) {
 
         double principal = 10000.0;
         double rate = 6.5;
@@ -11,19 +11,14 @@ public class program4 {
 
         int totalMarks = 78 + 84 + 69 + 91 + 88;
 
-        // Simple Interest
         double si = principal * rate * time / 100.0;
 
-        // Total Amount
         double totalAmount = principal + si;
 
-        // BMI
         double bmi = weight / (height * height);
 
-        // Percentage
         double percentage = totalMarks * 100.0 / 500;
 
-        // Output
         System.out.println("Simple Interest: " + si);
         System.out.println("Total Amount: " + totalAmount);
         System.out.println("BMI: " + bmi);
