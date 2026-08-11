@@ -12,7 +12,7 @@ public class pg21 {
         float height = sc.nextFloat();
         System.out.println("height is " + height);
 
-        sc.nextLine();
+        // sc.nextLine();
         System.out.println("Enter your Full name:");
         String name = sc.nextLine();
         System.out.println("Full Name is " + name);
