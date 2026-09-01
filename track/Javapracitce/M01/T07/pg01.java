@@ -1,4 +1,4 @@
-package track.Javapracitce.M01.T07;
+
 
 import java.util.Scanner;
 
