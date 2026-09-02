@@ -5,16 +5,16 @@ public class rotateElement {
 
     public static void main(String[] args) {
         int arr[] = { 12, 23, 34, 45 };
-        System.out.println("Before anticlockwise rotation");
+        System.out.println("Before clockwise rotation");
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-        System.out.println("After anticlockwise rotation");
-        int res = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            arr[i - 1] = arr[i];
+        System.out.println("After clockwise rotation");
+        int res = arr[arr.length - 1];
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
         }
-        arr[arr.length - 1] = res;
+        arr[0] = res;
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
